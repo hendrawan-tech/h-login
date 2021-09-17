@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../img/mountain.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    /* background: wheat; */
+    border-radius: 50%;
+    border: 3px solid white;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+
+.logo p {
+    line-height: 10px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+.login {
+    padding: 60px 0;
+    box-sizing: border-box;
+    width: 30%;
+    height: 500px;
+    background: rgba(0, 0, 0, .4);
+    margin: 100px auto;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.login input {
+    height: 40px;
+    border-radius: 30px;
+    width: 80%;
+    margin:5px auto;
+    font-size: 14px;
+    padding-left: 20px;
+    background: rgba(255, 255, 255, .4);
+    border: none;
+    box-sizing: border-box;
+    color: white;
+    outline: none;
+}
+
+.login input::placeholder {
+    color: #f2f2f2;
+}
+
+.login button {
+    margin-top: 10px;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 30px;
+    width: 80%;
+    background: #ff2869;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.login form p {
+    color: white;
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, .9);
+}
+
+.login form p a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, .9);
+}
+
+@media (max-width: 768px) {
+    .login {
+        width: 80% !important;
+    }
+}
